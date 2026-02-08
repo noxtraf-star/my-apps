@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { SystemPhase, UserConfig, SystemLogEntry, ContentSet, DailyAsset } from './types';
-import { GeminiService } from './services/geminiService';
+import { GeminiService } from './services/GeminiService';
 import Onboarding from './components/Onboarding';
 import Dashboard from './components/Dashboard';
 import SystemLog from './components/SystemLog';
